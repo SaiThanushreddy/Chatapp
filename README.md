@@ -1,6 +1,3 @@
-I'll correct and improve the markdown formatting for your README. Here's the corrected version:
-
-```markdown
 # Real-time Chat Application
 
 This is a real-time chat application with a backend built in Node.js using Express, MongoDB, and AWS services for storage, and a frontend built with Next.js and Chakra UI. The app supports user authentication, messaging, and file uploads with AWS S3 integration.
@@ -48,66 +45,55 @@ This is a real-time chat application with a backend built in Node.js using Expre
    ```bash
    git clone <backend-repo-url>
    cd backend
-```
+   ```
 
 2. Install dependencies:
 
-```shellscript
-npm install
-```
-
+   ```bash
+   npm install
+   ```
 
 3. Create a `.env` file in the root directory and add the following environment variables:
 
-```plaintext
-MONGO_URI=<Your MongoDB URI>
-JWT_SECRET=<Your JWT Secret>
-AWS_ACCESS_KEY_ID=<Your AWS Access Key>
-AWS_SECRET_ACCESS_KEY=<Your AWS Secret Key>
-AWS_S3_BUCKET=<Your S3 Bucket Name>
-```
-
+   ```plaintext
+   MONGO_URI=<Your MongoDB URI>
+   JWT_SECRET=<Your JWT Secret>
+   AWS_ACCESS_KEY_ID=<Your AWS Access Key>
+   AWS_SECRET_ACCESS_KEY=<Your AWS Secret Key>
+   AWS_S3_BUCKET=<Your S3 Bucket Name>
+   ```
 
 4. Start the backend server:
 
-```shellscript
-npm run dev
-```
-
-
-
+   ```bash
+   npm run dev
+   ```
 
 ### Frontend Setup
 
 1. Clone the repository:
 
-```shellscript
-git clone <frontend-repo-url>
-cd front-end
-```
-
+   ```bash
+   git clone <frontend-repo-url>
+   cd front-end
+   ```
 
 2. Install dependencies:
 
-```shellscript
-npm install
-```
-
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-```shellscript
-npm run dev
-```
-
-
-
+   ```bash
+   npm run dev
+   ```
 
 ## Testing the Application
 
 1. Open `http://localhost:3000` in your browser to access the frontend interface.
 2. Use the chat interface to send real-time messages, upload files, and authenticate with JWT-based login.
-
 
 ## Available Scripts
 
@@ -116,11 +102,8 @@ npm run dev
 - `npm start`: Starts the backend server in production mode.
 - `npm run dev`: Runs the backend in development mode.
 
-
 ### Frontend Scripts
 
 - `npm run dev`: Runs the frontend in development mode.
 - `npm run build`: Builds the app for production.
 - `npm run start`: Starts the production server.
-
-
