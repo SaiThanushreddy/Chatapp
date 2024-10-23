@@ -43,7 +43,7 @@ This is a real-time chat application with a backend built in Node.js using Expre
 1. Clone the repository:
 
    ```bash
-   git clone <backend-repo-url>
+   git clone repo url 
    cd backend
    ```
 
@@ -74,8 +74,7 @@ This is a real-time chat application with a backend built in Node.js using Expre
 1. Clone the repository:
 
    ```bash
-   git clone <frontend-repo-url>
-   cd front-end
+    cd front-end
    ```
 
 2. Install dependencies:
